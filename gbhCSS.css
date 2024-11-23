@@ -1,0 +1,114 @@
+.stickySubstance {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+}
+.textLeft {
+  position: absolute;
+  width: auto;
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.textLeft > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border: 2px outset purple;
+  background-color: #ffb3f4;
+  margin: 10px;
+  text-align: center;
+  padding-left: 10;
+}
+
+.toTop {
+  width: auto;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.toTop > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border: 2px outset purple;
+  background-color: #ffb3f4;
+  margin: 10px;
+  text-align: center;
+  padding-left: 10;
+}
+
+
+.logoCenter {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 75px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.test {
+  height: 20000px;
+  background-color: red;
+}
+
+body {
+  background: #f5f0bf;
+  animation-name: backdropKF;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes backdropKF {
+  from {background: #f5f0bf;}
+  to {background: #784283;}
+}
+
+
+
+.mainBox {
+  width: 100%;
+  height: auto;
+  background-color: #ffd8ec;
+
+}
+.imgRight {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainText{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+  padding: 20px;
+}
+figcaption {
+  display: flex;
+  align-items: flex-end;
+  font-size: 10px;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.ytVideo {
+  display: flex;
+  justify-content: space-around;
+}
+.galleryPhoto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
